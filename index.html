@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Random Password Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Password Generator</h1>
+	<div class="main">
+		<div class="box">
+			<span id="pass-box">Testing</span>
+
+			<!--Password Length-->
+			<div class=row>
+				<div class="left">
+					Password Length
+				</div>
+				<div class="right">
+					<input type="number" name="" id="total-char" max="30" min="2" value="10">
+				</div>
+			</div>
+
+			<!--Upper Case-->
+			<div class="row">
+				<label for="upper-case">
+					<div class="left">
+						Contains UpperCase
+					</div>
+				</label>
+				<div class="right">
+					<input type="checkbox" name="" id="upper-case" checked/>
+				</div>
+			</div>
+
+			<!--LowerCase-->
+			<div class="row">
+				<label for="lower-case">
+					<div class="left">
+						Contains LowerCase
+					</div>
+				</label>
+				<div class="right">
+					<input type="checkbox" name="" id="lower-case" checked/>
+				</div>
+			</div>
+
+			<!--Number-->
+			<div class="row">
+				<label for="numbers">
+					<div class="left">
+						Contains Number
+					</div>
+				</label>
+				<div class="right">
+					<input type="checkbox" name="" id="numbers" checked/>
+				</div>
+			</div>
+
+			<!--Symbol-->
+			<div class="row">
+				<label for="symbols">
+					<div class="left">
+						Contains Symbols
+					</div>
+				</label>
+				<div class="right">
+					<input type="checkbox" name="" id="symbols" checked/>
+				</div>
+			</div>
+			<div class="row">
+				<button id="btn">
+					Generate
+				</button>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
